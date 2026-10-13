@@ -1,0 +1,19 @@
+.venv/
+.python_packages/
+__pycache__/
+*.py[cod]
+.env
+local.settings.json
+
+# Azurite local storage
+__azurite_db_*.json
+__blobstorage__/
+__queuestorage__/
+azurite/
+AzuriteConfig
+
+# Local artifacts
+0.jsonl
+.vscode/
+app.zip
+azurite_debug.log

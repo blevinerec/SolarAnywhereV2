@@ -1,0 +1,20 @@
+# Azure Functions (Python v2) + Durable
+azure-functions==1.*
+azure-functions-durable==1.*
+
+# Data stack compatible with Python 3.10
+pandas==2.2.3
+numpy==1.26.4
+pvlib==0.10.5
+timezonefinder==6.6.3
+requests==2.32.3
+sqlalchemy==2.0.*
+openpyxl==3.1.5
+
+# SQL connectivity
+# IMPORTANT: pyodbc version names are 4.x/5.x; "18" is the *ODBC driver* not the Python package
+pyodbc==4.0.39
+
+# Observability & env
+sentry-sdk==1.*
+python-dotenv==1.*

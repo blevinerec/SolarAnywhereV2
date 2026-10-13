@@ -1,0 +1,22 @@
+# Ignore local development artifacts and large files
+.azurite/
+azurite/
+__blobstorage__/
+__queuestorage__/
+__pycache__/
+.venv/
+.venv/**
+*.pyc
+*.log
+*.sqlite
+*.db
+.env
+.local.settings.json
+.vscode/
+.git/
+__azurite_db_blob__.json
+__azurite_db_queue__.json
+__azurite_db_table__.json
+__azurite_db_blob_extent__.json
+__azurite_db_queue_extent__.json
+azurite/debug.log
